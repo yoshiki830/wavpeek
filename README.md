@@ -1,5 +1,9 @@
 # wavpeek
 
+[![build](https://github.com/yoshiki830/wavpeek/actions/workflows/build.yaml/badge.svg)](https://github.com/yoshiki830/wavpeek/actions/workflows/build.yaml)
+[![Coverage Status](https://coveralls.io/repos/github/yoshiki830/wavpeek/badge.svg?branch=main)](https://coveralls.io/github/yoshiki830/wavpeek?branch=main)
+
+
 ![license](https://img.shields.io/badge/license-MIT-blue)
 ![version](https://img.shields.io/badge/version-0.1.0-blue)
 
