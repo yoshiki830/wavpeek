@@ -7,6 +7,7 @@
 ![license](https://img.shields.io/badge/license-MIT-blue)
 ![version](https://img.shields.io/badge/version-0.1.0-blue)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20523493.svg)](https://doi.org/10.5281/zenodo.20523493)
 A command line tool that displays basic information about WAV files.
 
 ## Overview
