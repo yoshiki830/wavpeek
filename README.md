@@ -1,51 +1,30 @@
-# wavpeek
+# songacha
 
-[![build](https://github.com/yoshiki830/wavpeek/actions/workflows/build.yaml/badge.svg)](https://github.com/yoshiki830/wavpeek/actions/workflows/build.yaml)
-[![Coverage Status](https://coveralls.io/repos/github/yoshiki830/wavpeek/badge.svg?branch=main)](https://coveralls.io/github/yoshiki830/wavpeek?branch=main)
-
-
-![license](https://img.shields.io/badge/license-MIT-blue)
-![version](https://img.shields.io/badge/version-0.1.0-blue)
-
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20523493.svg)](https://doi.org/10.5281/zenodo.20523493)
-
-A command line tool that displays basic information about WAV files.
+A command line song gacha tool using Perfume songs as sample data.
 
 ## Overview
 
-wavpeek is a CLI tool for inspecting WAV file metadata from the terminal.
-It displays information such as channels, sample rate, bits per sample, and duration.
+`songacha` is a CLI tool that randomly draws songs from a local song list.
 
-## Installation
+This project uses Perfume songs as sample data and provides gacha-like features such as pull results, collection progress, missing songs, and frequently drawn song rankings.
 
-```bash
-cargo install --path .
-```
+The goal of this project is to build a small but complete CLI application while learning the software development process, including documentation, testing, CI/CD, and release management.
+
+This tool does not play music, display lyrics, or use artist images.  
+It only handles local song metadata such as song titles, artist names, album names, and disc numbers.
+
+## Features
+
+- Draw a random song from a song list
+- Draw multiple songs at once
+- Save pull history locally
+- Show collected songs
+- Show missing songs
+- Show collection progress
+- Show frequently drawn songs ranking
 
 ## Usage
 
-```bash
-wavpeek [OPTIONS] <FILE>
-```
-
-## Options
-
-```text
---json          Output the result in JSON format
--h, --help      Print help
--V, --version   Print version
-```
-
-## Examples
-
-```bash
-wavpeek sample.wav
-wavpeek --json sample.wav
-```
-
-## About
-
-- Author: Yoshiki Hasegawa
-- License: MIT
-- Version: 0.1.0
+```console
+$ songacha pull
 - Language: Rust
